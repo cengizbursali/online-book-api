@@ -3,6 +3,11 @@
 
 ## Tech stack & Open-source libraries
 
+### Microservices & Database
+
+* 	[online-book-api](https://github.com/cengizbursali/online-book-api) - to connect database for providing rest service
+* 	[postgresql-db](https://github.com/cengizbursali/online-book-api/tree/master/postgresql-db) - to store client information
+
 ### Server - Backend
 
 * 	[JDK-11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Java™ Platform, Standard Edition Development Kit
@@ -24,7 +29,6 @@
 *   [Docker](https://www.docker.com/) - A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
 
 
-
 ## Running the application locally
 
 *	use "**docker-compose up -d**" to run the dockerized spring boot projects
@@ -35,15 +39,15 @@
 
 ### URLs
 
-|                   URL                   | Method |          Remarks       |
-|-----------------------------------------|--------|------------------------|
-|`https://localhost:8088/users`           | GET    | Get All Users          |
-|`https://localhost:8088/users/1`         | GET    | Get A User             |
-|`https://localhost:8088/users`           | POST   | Create A User          |
-|`https://localhost:8088/rewards`         | GET    | Get All Rewards        |
-|`https://localhost:8088/rewards/1`       | GET    | Get A Reward           |
-|`https://localhost:8088/rewards`         | POST   | Create A Reward        |
-|`https://localhost:8088/user-rewards`    | POST   | Assign Reward to User  |
+|                   URL                           | Method |              Remarks                 |
+|-------------------------------------------------|--------|--------------------------------------|
+|`https://localhost:8088/auth`                    | POST   | Authentication user                  |
+|`https://localhost:8088/books`                   | POST   | Create a book with stock option      |
+|`https://localhost:8088/book-stocks`             | GET    | Get all books with stock option      |
+|`https://localhost:8088/customers`               | POST   | Create a customer                    |
+|`https://localhost:8088/orders?customerId=1`     | GET    | Get orders of the customer           |
+|`https://localhost:8088/orders`                  | POST   | Create a order                       |
+|`https://localhost:8088/order-details?orderId=1` | GET    | Get order details                    |
 
 
 ## EER Diagram
