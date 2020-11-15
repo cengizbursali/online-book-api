@@ -8,12 +8,14 @@ import com.getir.onlinebookapi.model.request.FilterOrderRequest;
 import com.getir.onlinebookapi.model.response.OrderDto;
 import com.getir.onlinebookapi.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class OrderService {
@@ -28,6 +30,7 @@ public class OrderService {
         bookStockService.decrementStock(createOrderRequest.getBookMap());
         final Order order = orderConverter.convert(createOrderRequest);
         orderRepository.save(order);
+        log.info("Order saved to database: {}", order);
     }
 
     public List<OrderDto> getAll(FilterOrderRequest filterOrderRequest) {
