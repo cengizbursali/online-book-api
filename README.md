@@ -41,13 +41,13 @@
 
 |                   URL                           | Method |              Remarks                 |
 |-------------------------------------------------|--------|--------------------------------------|
-|`https://localhost:8088/auth`                    | POST   | Authentication user                  |
-|`https://localhost:8088/books`                   | POST   | Create a book with stock option      |
-|`https://localhost:8088/book-stocks`             | GET    | Get all books with stock option      |
-|`https://localhost:8088/customers`               | POST   | Create a customer                    |
-|`https://localhost:8088/orders?customerId=1`     | GET    | Get orders of the customer           |
-|`https://localhost:8088/orders`                  | POST   | Create a order                       |
-|`https://localhost:8088/order-details?orderId=1` | GET    | Get order details                    |
+|`https://localhost:8888/auth`                    | POST   | Authentication user                  |
+|`https://localhost:8888/books`                   | POST   | Create a book with stock option      |
+|`https://localhost:8888/book-stocks`             | GET    | Get all books with stock option      |
+|`https://localhost:8888/customers`               | POST   | Create a customer                    |
+|`https://localhost:8888/orders?customerId=1`     | GET    | Get orders of the customer           |
+|`https://localhost:8888/orders`                  | POST   | Create a order                       |
+|`https://localhost:8888/order-details?orderId=1` | GET    | Get order details                    |
 
 
 ## EER Diagram
