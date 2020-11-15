@@ -24,6 +24,7 @@
 * 	[JUnit](https://junit.org/junit5/) - The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java, as well as enabling many different styles of testing.
 * 	[Lombok](https://projectlombok.org/) - Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
 * 	[Swagger](https://swagger.io/) - Open-Source software framework backed by a large ecosystem of tools that helps developers design, build, document, and consume RESTful Web services.
+* 	[Postman](https://www.postman.com/) - Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster
 
 ### Others 
 
@@ -38,6 +39,7 @@
 ## Documentation
 
 * 	[Swagger](http://localhost:8888/swagger-ui.html) - `http://localhost:8888/swagger-ui.html`- Documentation & Testing
+* 	[Postman Collection](https://www.postman.com/collections/c62903499d356e33f40b/) -`https://www.postman.com/collections/c62903499d356e33f40b`- You can find the s postman collection here
 
 ### URLs
 
