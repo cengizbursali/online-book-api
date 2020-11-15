@@ -45,7 +45,7 @@
 
 |                   URL                           | Method |              Remarks                 |
 |-------------------------------------------------|--------|--------------------------------------|
-|`https://localhost:8888/auth`                    | POST   | Authentication user                  |
+|`https://localhost:8888/auth`                    | POST   | Authenticate user                  |
 |`https://localhost:8888/books`                   | POST   | Create a book with stock option      |
 |`https://localhost:8888/book-stocks`             | GET    | Get all books with stock option      |
 |`https://localhost:8888/customers`               | POST   | Create a customer                    |
