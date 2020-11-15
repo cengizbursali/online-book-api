@@ -21,6 +21,7 @@
 ###  Libraries and Plugins
 
 * 	[Spring Security with Bearer Token](https://www.baeldung.com/security-spring/) - Provide secure endpoints.
+* 	[JUnit](https://junit.org/junit5/) - The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java, as well as enabling many different styles of testing.
 * 	[Lombok](https://projectlombok.org/) - Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
 * 	[Swagger](https://swagger.io/) - Open-Source software framework backed by a large ecosystem of tools that helps developers design, build, document, and consume RESTful Web services.
 
