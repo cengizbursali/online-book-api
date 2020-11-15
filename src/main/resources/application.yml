@@ -1,0 +1,22 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: Online Book Api
+  datasource:
+    url: jdbc:postgresql://postgresql:5432/getirdb
+    username: myuser
+    password: mypass
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database: postgresql
+
+jwt:
+  token:
+    secret: a863e1cea691d4fb38f2578ff1ddf206

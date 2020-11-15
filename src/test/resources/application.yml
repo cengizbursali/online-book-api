@@ -1,0 +1,3 @@
+jwt:
+  token:
+    secret: my_secret

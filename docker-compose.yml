@@ -1,0 +1,25 @@
+version: '3'
+services:
+  postgresql:
+    restart: always
+    image: cengizbursali/getirdb:latest
+    container_name: postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - DB_USER=myuser
+      - DB_PASS=mypass
+      - DB_NAME=getirdb
+  online-book-api:
+    image: cengizbursali/online-book-api:latest
+    container_name: online-book-api
+    restart: always
+    ports:
+      - 8888:8888
+    deploy:
+      resources:
+        limits:
+          cpus: '0.40'
+          memory: 200M
+    depends_on:
+      - postgresql
