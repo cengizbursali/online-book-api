@@ -39,7 +39,7 @@
 ## Documentation
 
 * 	[Swagger](http://localhost:8888/swagger-ui.html) - `http://localhost:8888/swagger-ui.html`- Documentation & Testing
-* 	[Postman Collection](https://www.postman.com/collections/c62903499d356e33f40b/) -`https://www.postman.com/collections/c62903499d356e33f40b`- You can find the s postman collection here
+* 	[Postman Collection](https://www.postman.com/collections/c62903499d356e33f40b/) -`https://www.postman.com/collections/c62903499d356e33f40b`- You can find the postman collection here and import the link your locale postman app.
 
 ### URLs
 
